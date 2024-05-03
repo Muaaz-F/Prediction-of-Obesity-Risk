@@ -32,3 +32,20 @@ Our approach formulates the problem as a classification task, where the goal is 
 ### Summary of Performance Achieved:
 Our best model achieved an accuracy of 0.9039 on the validation set. This means that the model accurately predicted the obesity level of individuals in the test data 90.39% of the time.
 
+
+## Summary of the Work Done
+
+### Data
+Data: Obesity Risk
+Type: .csv
+Input: CSV file of features, output: 'NObeyesdad' in last column.
+Size: (20758, 18)
+
+### Preprocessing / Clean up
+
+  * Encoding Categorical Variables:
+    Converted categorical variables into numerical format using techniques such as one-hot encoding or label encoding, depending on the nature of the data and the model requirements.
+  * Feature Scaling:
+    Applied feature scaling techniques such as standardization or normalization to ensure all features have the same scale and prevent any particular feature from dominating the learning process.
+  * Feature Engineering:
+    Created one new feature (derived feature) from existing ones to capture additional information that could be useful for the models.
