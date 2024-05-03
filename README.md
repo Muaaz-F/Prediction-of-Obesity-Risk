@@ -6,7 +6,7 @@ This project aims to classify individuals into different obesity levels based on
 
 1. [Introduction](#introduction)
 2. [Dataset](#dataset)
-3. [Project Structure](#project-structure)
+3. [Overview](#overview)
 4. [Usage](#usage)
 5. [Results](#results)
 6. [Contributing](#contributing)
@@ -18,9 +18,8 @@ Obesity is a significant health concern globally, and its classification is cruc
 
 ## Dataset
 
-The dataset used in this project contains anonymized features such as age, gender, height, weight, and lifestyle factors (e.g., diet, physical activity) of individuals. Additionally, it includes the target variable indicating the obesity level.
+The dataset used in this project contains anonymized features such as age, gender, height, weight, and lifestyle factors (e.g., diet, physical activity) of individuals. Additionally, it includes the target variable indicating the multi obesity level. The dataset can be found here https://www.kaggle.com/competitions/playground-series-s4e2/data
 
-## Project Structure
 
 ## Overview:
 
