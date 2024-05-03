@@ -15,7 +15,8 @@ This project aims to classify individuals into different obesity levels based on
     - [Training](#training)
     - [Conclusions](#conclusions)
     - [Future Work](#future-work)
-5. [Citations](#citations)
+5. [Directory Structure](#directory-structure)
+6. [Citations](#citations)
 
 ## Introduction
 
@@ -78,6 +79,21 @@ Ensemble Model 2 emerged as the top performer, achieving an accuracy of 91%. Whi
 
 - **Next Steps:** Experiment with deep learning architectures such as neural networks to potentially improve model performance.
 - **Further Studies:** Investigate the impact of additional features or alternative preprocessing techniques on classification accuracy.
+
+## Directory Structure
+
+- **data/**
+  - `modified_train.csv`: CSV file containing preprocessed training data.
+  - `modified_test.csv`: CSV file containing preprocessed test data.
+
+- **notebooks/**
+  - `Notebook_1.ipynb`: Notebook for initial data exploration, preprocessing and feature engineering.
+  - `Notebook_2.ipynb`: Notebook for Models: RandomForestClassifier, SVM, GradientBoosting, DecisionTree.
+  - `Notebook_3.ipynb`: Notebook for enseble models training using various algorithms and hyperparameter tuning.
+  - `Notebook_4.ipynb`: Notebook for hyperparameter optimization with Gradient Boosting.
+
+
+- **README.md**: Markdown file containing the overview, instructions, and documentation for the project.
 
 ## Citations
 
