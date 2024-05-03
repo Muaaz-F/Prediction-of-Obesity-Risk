@@ -49,3 +49,12 @@ Size: (20758, 18) <br />
     Applied feature scaling techniques such as standardization or normalization to ensure all features have the same scale and prevent any particular feature from dominating the learning process.
   * Feature Engineering:
     Created one new feature (derived feature) from existing ones to capture additional information that could be useful for the models.
+
+### Data Visualization <br />
+
+    * Histograms of Numerical Features:
+      Visualizing histograms of numerical features helps to understand their distributions and identify any patterns or anomalies. For example, we may observe that some features follow a normal distribution, while others exhibit skewness       or multimodality.
+      
+    * Correlation Heatmap:
+      A correlation heatmap illustrates the pairwise correlations between different features in the dataset. This helps to identify strong correlations (positive or negative) between pairs of features, which can provide insights into           potential relationships and dependencies within the data.
+
