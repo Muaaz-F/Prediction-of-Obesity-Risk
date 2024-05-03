@@ -36,10 +36,10 @@ Our best model achieved an accuracy of 0.9039 on the validation set. This means 
 ## Summary of the Work Done
 
 ### Data
-Data: Obesity Risk
-Type: .csv
-Input: CSV file of features, output: 'NObeyesdad' in last column.
-Size: (20758, 18)
+Data: Obesity Risk <br />
+Type: .csv <br />
+Input: CSV file of features, output: 'NObeyesdad' in last column. <br />
+Size: (20758, 18) <br />
 
 ### Preprocessing / Clean up
 
