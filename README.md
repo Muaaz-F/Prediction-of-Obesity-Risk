@@ -50,7 +50,7 @@ Size: (20758, 18) <br />
   * Feature Engineering:
     Created one new feature (derived feature) from existing ones to capture additional information that could be useful for the models.
 
-### Data Visualization <br />
+### Data Visualization
 
     * Histograms of Numerical Features:
       Visualizing histograms of numerical features helps to understand their distributions and identify any patterns or anomalies. For example, we may observe that some features follow a normal distribution, while others exhibit skewness       or multimodality.
