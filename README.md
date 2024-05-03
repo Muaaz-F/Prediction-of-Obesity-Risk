@@ -22,3 +22,14 @@ The dataset used in this project contains anonymized features such as age, gende
 
 ## Project Structure
 
+## Overview:
+
+### Definition of the Task:
+The task in this project is to classify individuals into different obesity levels based on various features such as age, gender, and lifestyle habits. The dataset includes anonymized information about individuals along with their corresponding obesity level.
+
+### Your Approach:
+Our approach formulates the problem as a classification task, where the goal is to predict the obesity level of individuals based on their features. We experimented with various machine learning algorithms such as Gradient Boosting and Voting Classifier. Additionally, feature selection techniques and ensemble modeling were employed to enhance the predictive performance.
+
+### Summary of Performance Achieved:
+Our best model achieved an accuracy of 90.39% on the validation set. This means that the model accurately predicted the obesity level of individuals in the test data 90.39% of the time. As of the latest evaluation, the best performance on Kaggle for this task is 91.5%, indicating that our model is competitive with the top-performing solutions on the platform.
+
