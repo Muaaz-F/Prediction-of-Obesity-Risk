@@ -58,3 +58,18 @@ Size: (20758, 18) <br />
     * Correlation Heatmap:
       A correlation heatmap illustrates the pairwise correlations between different features in the dataset. This helps to identify strong correlations (positive or negative) between pairs of features, which can provide insights into           potential relationships and dependencies within the data.
 
+
+### Problem Formulation
+
+Input: The input consists of various features such as age, gender, height, weight, family history of obesity, frequency of consumption of various types of food, physical activity, and other lifestyle-related factors.
+Output: The output is the classification of individuals into one of seven weight categories based on their body mass index (BMI) and other features.
+
+
+| Model                        | Accuracy |
+|------------------------------|----------|
+| Random Forest Classifier     | 0.89     |
+| Support Vector Machine (SVM) | 0.85     |
+| Gradient Boosting Classifier | 0.90     |
+| Decision Tree Classifier     | 0.83     |
+| Ensemble Model 1             | 0.89     |
+| Ensemble Model 2             | 0.91     |
