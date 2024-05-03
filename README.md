@@ -7,10 +7,15 @@ This project aims to classify individuals into different obesity levels based on
 1. [Introduction](#introduction)
 2. [Dataset](#dataset)
 3. [Overview](#overview)
-4. [Usage](#usage)
-5. [Results](#results)
-6. [Contributing](#contributing)
-7. [License](#license)
+4. [Summary of Work Done](#summary-of-work-done)
+    - [Data Preprocessing](#data-preprocessing)
+    - [Data Visualization](#data-visualization)
+    - [Problem Formulation](#problem-formulation)
+    - [Models Explored](#models-explored)
+    - [Training](#training)
+    - [Conclusions](#conclusions)
+    - [Future Work](#future-work)
+5. [Citations](#citations)
 
 ## Introduction
 
@@ -18,8 +23,7 @@ Obesity is a significant health concern globally, and its classification is cruc
 
 ## Dataset
 
-The dataset used in this project contains anonymized features such as age, gender, height, weight, and lifestyle factors (e.g., diet, physical activity) of individuals. Additionally, it includes the target variable indicating the multi obesity level. The dataset can be found here https://www.kaggle.com/competitions/playground-series-s4e2/data
-
+The dataset used in this project contains anonymized features such as age, gender, height, weight, and lifestyle factors (e.g., diet, physical activity) of individuals. Additionally, it includes the target variable indicating the multi obesity level. The dataset can be found [here](https://www.kaggle.com/competitions/playground-series-s4e2/data).
 
 ## Overview:
 
@@ -32,38 +36,24 @@ Our approach formulates the problem as a classification task, where the goal is 
 ### Summary of Performance Achieved:
 Our best model achieved an accuracy of 0.9039 on the validation set. This means that the model accurately predicted the obesity level of individuals in the test data 90.39% of the time.
 
+## Summary of Work Done
 
-## Summary of the Work Done
+### Data Preprocessing
 
-### Data
-Data: Obesity Risk <br />
-Type: .csv <br />
-Input: CSV file of features, output: 'NObeyesdad' in last column. <br />
-Size: (20758, 18) <br />
-
-### Preprocessing / Clean up
-
-  * Encoding Categorical Variables:
-    Converted categorical variables into numerical format using techniques such as one-hot encoding or label encoding, depending on the nature of the data and the model requirements.
-  * Feature Scaling:
-    Applied feature scaling techniques such as standardization or normalization to ensure all features have the same scale and prevent any particular feature from dominating the learning process.
-  * Feature Engineering:
-    Created one new feature (derived feature) from existing ones to capture additional information that could be useful for the models.
+- **Encoding Categorical Variables:** Converted categorical variables into numerical format using techniques such as one-hot encoding or label encoding, depending on the nature of the data and the model requirements.
+- **Feature Scaling:** Applied feature scaling techniques such as standardization or normalization to ensure all features have the same scale and prevent any particular feature from dominating the learning process.
+- **Feature Engineering:** Created one new feature (derived feature) from existing ones to capture additional information that could be useful for the models.
 
 ### Data Visualization
 
-    * Histograms of Numerical Features:
-      Visualizing histograms of numerical features helps to understand their distributions and identify any patterns or anomalies. For example, we may observe that some features follow a normal distribution, while others exhibit skewness       or multimodality.
-      
-    * Correlation Heatmap:
-      A correlation heatmap illustrates the pairwise correlations between different features in the dataset. This helps to identify strong correlations (positive or negative) between pairs of features, which can provide insights into           potential relationships and dependencies within the data.
-
+- **Histograms of Numerical Features:** Visualized histograms of numerical features to understand their distributions and identify any patterns or anomalies.
+- **Correlation Heatmap:** Generated a correlation heatmap to illustrate the pairwise correlations between different features in the dataset.
 
 ### Problem Formulation
 
-Input: The input consists of various features such as age, gender, height, weight, family history of obesity, frequency of consumption of various types of food, physical activity, and other lifestyle-related factors.
-Output: The output is the classification of individuals into one of seven weight categories based on their body mass index (BMI) and other features.
+- **Input / Output:** The input consists of various features such as age, gender, height, weight, family history of obesity, frequency of consumption of various types of food, physical activity, and other lifestyle-related factors. The output is the classification of individuals into one of seven weight categories based on their body mass index (BMI) and other features.
 
+### Models Explored
 
 | Model                        | Accuracy |
 |------------------------------|----------|
@@ -72,4 +62,23 @@ Output: The output is the classification of individuals into one of seven weight
 | Gradient Boosting Classifier | 0.90     |
 | Decision Tree Classifier     | 0.83     |
 | Ensemble Model 1             | 0.89     |
-| Ensemble Model 2             | 0.91     |
+| **Ensemble Model 2**         | 0.91     |
+
+### Training
+
+Describe the training:
+How you trained: Jupyter Notebook Local.
+Need more computing power for Hyperparameter Optimization
+
+### Conclusions
+
+Ensemble Model 2 emerged as the top performer, achieving an accuracy of 91%. While Ensemble Model 2 showed a slight improvement in accuracy compared to other models, the difference may not be substantial. This suggests that further optimization or exploration of different model architectures and features might be necessary to achieve significant improvements in classification performance. Additionally, conducting more extensive hyperparameter tuning and feature engineering could potentially lead to better results.
+
+### Future Work 
+
+- **Next Steps:** Experiment with deep learning architectures such as neural networks to potentially improve model performance.
+- **Further Studies:** Investigate the impact of additional features or alternative preprocessing techniques on classification accuracy.
+
+## Citations
+
+https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
